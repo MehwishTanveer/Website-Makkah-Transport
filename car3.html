@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Makkah Transport</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+  <script type="text/javascript" src="js/background.cycle.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body style="height:auto">
+
+    <nav class="navbar navbar-default navbar-fixed-top text-center">
+    <div class="container-fluid text-center">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/images.png" height="50px" width="100px" align ="left"/></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav text-center">
+            <li><a class="linkk" href="index.html">HOME</a></li>
+        <li class="dropdown active"><a class="dropdown-toggle linkk" data-toggle="dropdown" href="#">Vehicles<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li><a href="car1.html" class="linkk-sub">Camry</a></li>
+                <li><a href="car2.html" class="linkk-sub">Inova</a></li>
+                <li><a href="car3.html" class="linkk-sub">H-1</a></li>
+                <li><a href="car4.html" class="linkk-sub">GMC</a></li>
+                <li><a href="car5.html" class="linkk-sub">Hi-Ace</a></li>
+                <li><a href="car6.html" class="linkk-sub">Coaster</a></li>
+                <li><a href="car7.html" class="linkk-sub">Bus</a></li>
+                </ul>
+            </li>
+            <li><a class="linkk" href="#fare">Check Fare</a></li>
+            <li><a class="linkk" href="contact.html">Contact Us</a></li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+  
+
+  <div class="container-fluid page">
+ 
+    <div class="text-center">
+        <h1 class="title">Makkah Transportation Services</h1>
+        <h3><b>Makkah's Best Online Booking Platform with Live Pricing</b></h3><br/>
+
+        <div class="gap">
+        <h1 id="rates" class="sub-heading">H-1 Rates</h1>
+        <h4>Makkah Transportation Rates 16/17(Till end of Rajab)</h4> <br />
+        
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5"><br /><img src="img/vehicles/h-1.jpg" alt="h-1" class="img-responsive img-rounded" style="margin-left: auto; margin-right: auto;"></div>
+
+        
+            <div class="col-sm-6">
+                <br />
+        <table class="rate" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <th>Routes</th>
+                <th>Rates</th>
+            </tr>
+            <tr>
+                <td>JEDDAH AIRPORT TO MAKKAH AND VICE VERSA</td>
+                <td>300 Riyal</td>
+            </tr>
+            <tr>
+                <td>JED\MAKKAH TO MAD AND VICE VERSA</td>
+                <td>650 Riyal</td>
+            </tr>
+            <tr>
+                <td>MAKKAH ZIARAAT</td>
+                <td>300 Riyal</td>
+            </tr>
+            <tr>
+                <td>MADINAH ZIARAAT</td>
+                <td>250 Riyal</td>
+            </tr>
+            <tr>
+                <td>MAD AIRPORT TO MAD HOTEL AND VICE VERSA</td>
+                <td>250 Riyal</td>
+            </tr>
+            <tr>
+                <th>Luggage Capacity</th>
+                <td>Upto 5 bags</td>
+            </tr>
+            <tr>
+                <th>Passengers Capacity</th>
+                <td>Max 6 passengers</td>
+            </tr>
+        </table>
+
+
+        </div>
+        </div>
+    </div>
+    <br/>
+    <h1 id="fare" class="sub-heading">Book Transportation Online</h1>
+        <h4> Trukky is India's pioneer web and app based online Transport Booking 
+       platform that connects users to Hire a Truck with a network of thousands Truck drivers for Quick and Prompt Goods Delivery Option</h4><br/>
+
+   <form class="form-inline">
+        <div class="form-group">
+            <label>From</label>
+                <select name="from">
+                   <!-- <option value="select">Select</option>
+                        <option value="Jeddah Airport">Jeddah Aiport</option> -->
+                        <option value="madinah">Madinah</option>
+                        <option value="makkah">Makkah</option>
+                   <!-- <option value="makkah ziaraat">Makkah Ziaraat</option>
+                        <option value="madinaah ziaraat">Madinah Ziaraat</option> -->
+                    </select>
+                <label>Where To</label>
+                    <select name="where">
+                  <!--  <option value="select">Select</option>
+                        <option value="Jeddah Airport">Jeddah Aiport</option> -->
+                        <option value="madinah">Madinah</option>
+                        <option value="makkah">Makkah</option>
+                  <!--  <option value="makkah ziaraat">Makkah Ziaraat</option>
+                        <option value="madinaah ziaraat">Madinah Ziaraat</option> -->
+                    </select>
+            <label>Select Car</label>
+                <select name="car" id="car">
+                    <option value="Camry">Camry</option>
+                    <option value="H-1">H-1</option>
+                    <option value="GMC">GMC</option>
+                    <option value="Innova">Innova</option>
+                    <option value="Hi-Ace">Hi-Ace</option>
+                    <option value="Bus">Bus</option>
+                    <option value="Coaster">Coaster</option>
+                </select>
+            <b> <input type="button" class="btnn" value="Check Fare" onClick="checkFare()"></b>
+            </div>
+        </form> 
+        <p id="result"></p>      
+    </div>
+    
+      <br> <br>  
+   <div class="container hidden-xs hidden-sm">
+        <div class="row">
+            <div class="span12">
+                <div class="well">
+                    <div id="mySlider" class="carousel fdi-Carousel slide">
+                     <!-- Carousel items -->
+                        <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
+                            <div class="carousel-inner onebyone-carosel">
+                                <div class="item active">
+                                    <div class="col-md-4">
+                                        <a href="car1.html"><img src="img/vehicles/camry1.jpg" class="img-responsive center-block"></a>
+                                        <div class="text-center">Camry</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="car2.html"><img src="img/vehicles/innova.jpg" class="img-responsive center-block"></a>
+                                        <div class="text-center">Innova</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="car3.html"><img src="img/vehicles/h-1.jpg" class="img-responsive center-block"></a>
+                                        <div class="text-center">H-1</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="car4.html"><img src="img/vehicles/gmc.jpg" class="img-responsive center-block"></a>
+                                        <div class="text-center">GMC</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="car5.html"><img src="img/vehicles/hiace.jpg" class="img-responsive center-block"></a>
+                                        <div class="text-center">Hi-Ace</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="car6.html"><img src="img/vehicles/coaster.jpg" class="img-responsive center-block"></a>
+                                        <div class="text-center">Coaster</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="car7.html"><img src="img/vehicles/bus.jpg" class="img-responsive center-block"></a>
+                                        <div class="text-center">Bus</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#eventCarousel" data-slide="prev"></a>
+                            <a class="right carousel-control" href="#eventCarousel" data-slide="next"></a>
+                        </div>
+                        <!--/carousel-inner-->
+                    </div><!--/myCarousel-->
+                </div><!--/well-->
+            </div>
+        </div>
+    </div>
+
+    <!-- Clickable images for small screen -->
+
+        <div class="container visible-xs visible-sm">
+            <div class="row">
+                <div class="col-xs-6"><a href="car1.html"><img src="img/vehicles/camry1.jpg" class="img-responsive center-block"></a>
+                <div class="text-center">Camry</div>
+                </div>
+                <div class="col-xs-6"><a href="car2.html"><img src="img/vehicles/innova.jpg" class="img-responsive center-block"></a>
+                <div class="text-center">Innova</div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-xs-6"><a href="car3.html"><img src="img/vehicles/h-1.jpg" class="img-responsive center-block"></a>
+                <div class="text-center">H-1</div>
+                </div>
+                <div class="col-xs-6"><a href="car4.html"><img src="img/vehicles/gmc.jpg" class="img-responsive center-block"></a>
+                <div class="text-center">GMC</div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-xs-6"><a href="car5.html"><img src="img/vehicles/hiace.jpg" class="img-responsive center-block"></a>
+                <div class="text-center">Hi-Ace</div>
+                </div>
+                <div class="col-xs-6"><a href="car6.html"><img src="img/vehicles/coaster.jpg" class="img-responsive center-block"></a>
+                <div class="text-center">Coaster</div>
+                </div>
+            </div> <br>
+
+            <div class="row">
+                <div class="col-xs-3"></div>
+                <div class="col-xs-6"><a href="car7.html"><img src="img/vehicles/bus.jpg" class="img-responsive center-block" style="margin-right: auto; margin-left: auto; "></a>
+                <div class="text-center">Bus</div>
+                <div class="col-xs-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div  class="gap">
+            <h1 class="sub-heading">Terms And Conditions</h1>
+            <ol>
+            <li class="left">Please be carefull with the luggage capacity of the vehicle.</li>
+            <li class="left">Transport Rates are subject to change prior notice before sbc received.</li>
+            <li class="left">Rates increase 25% from 1st shaban</li>
+            </ol>
+        </div>
+    </div>
+</div> 
+
+<a href="#0" class="cd-top hidden-xs">Top</a>
+
+</div>
+    
+    <div class="container-fluid footer">
+        <div class="col-sm-5 col-md-8">2017 &copy; copyrights-Makkah Transport Saudi Arabia</div>
+        <div class="icon col-sm-3 col-md-2">
+            <a href="facebook.com"><i class="fa fa-whatsapp" aria-hidden="true">  00966-(0)50-5435949</i></a>
+        </div>
+        <div class="icon col-sm-4 col-md-2">
+            <a href="mailto:labbaikbooking@gmail.com"><i class="fa fa-google" aria-hidden="true">  labbaikbooking@gmail.com</i></a>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script> <!-- back to top -->
+
+    </body>
+</html>
