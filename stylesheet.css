@@ -1,0 +1,350 @@
+@font-face{
+    font-family: 'Gladifilthefte';
+    src: url('fonts/gladifilthefte.gladifilthefte.ttf');
+}
+
+.page{
+    background-color: #F7F7F7;
+    background-image: url("img/background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a.linkk:link, a.linkk:visited {
+    margin:0 auto;
+    display: block;
+    width: 150px;
+    color: #B51917 !important;
+    text-align: center ;
+    padding-right: 5px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a.linkk:hover, a.linkk:active{
+    color: #fff !important;
+    background-color: #B51917 !important;
+}
+
+a.linkk-sub:link, a.linkk-sub:visited {
+    margin:0 auto;
+    display: block;
+    width: 150px;
+    color: #B51917 !important;
+    text-align: center ;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+a.linkk-sub:hover, a.linkk-sub:active{
+    color: #fff !important;
+    background-color: #B51917 !important;
+}
+
+    /* a:active {
+          background-color:yellow;
+     }*/
+    li {
+        float: center;
+        text-align: center;
+    }
+   
+    body {
+	font: 18px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	}
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: auto;
+    margin: 40px auto 10px auto;
+    height: 400px;
+}
+
+@media(max-width:767px) {
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+    width: auto;
+    margin: 40px auto 10px auto;
+    height: 200px;
+    }
+}
+
+  .item {
+    display: none;
+    position: relative;
+    transition:1s ease-in-out left;
+}
+
+label{
+    color: #B51917;
+}
+
+
+select{
+    height: 45px;
+    width:180px;
+    background-color: #f6f6f6;
+    border-color: white;    
+}
+
+/* About */
+
+.about{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+}
+
+
+form{
+    border-color: lightgrey;
+}
+.btnn{
+    padding: 10px;
+    color: #B51917;   
+}
+
+.btnn:hover{
+    color: #f6f6f6;
+    background-color: #B51917;
+}
+
+.carousel-inner.onebyone-carosel { 
+    margin: auto; 
+    width: 90%; 
+}
+
+.onebyone-carosel .active.left { 
+    left: -33.33%;
+}
+
+.onebyone-carosel .active.right { 
+    left: 33.33%; 
+}
+
+.onebyone-carosel .next {
+     left: 33.33%; 
+}
+
+.onebyone-carosel .prev {
+     left: -33.33%;
+}
+
+.onebyone-carosel img{
+    width: 280px;
+    height: 250px;
+}
+
+.gap{
+    margin-bottom :30px !important;
+}
+
+.white{
+    background-color: white;
+}
+h1,h2{
+    color:#B51917;
+}
+
+.black{
+    background-color: #f6f6f6;
+    height: 300px;  
+}
+
+ a.below:link,a.below:visited {
+        margin:0 auto;
+        width: 120px;
+        color:black;
+        text-align:center;
+        padding:0px;
+        text-decoration:none;
+        font-weight: lighter;
+       
+    }
+    a.below:hover{
+        text-decoration: underline;
+    }
+.red{
+        background-color: #B51917;
+        border-style: white solid;
+        color :white;
+        text-transform: uppercase;
+}
+   
+.marginn{
+    margin-top: 1px;
+     margin-bottom: 1px;
+    height: 50px;
+    align-content: center;
+   -moz-text-align-last: center;
+   
+}
+.pad{
+    padding-top: 14px;
+}
+ .gry{
+        background-color: #f6f6f6;
+        border-style: white solid;
+        color :black;}
+.mrg-sml{
+    margin: 1px;
+}
+.left{
+    text-align: left;
+}
+
+
+/* Car Rates Table */
+
+.rate{
+    box-shadow: 5px 3px 3px #B51917  
+
+}
+ 
+.rate th{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #B51917;
+} 
+
+.rate td{
+    text-transform: capitalize;
+    padding: 10px;
+    color: darkslategray;
+    padding-left: -90px !important;
+    border-spacing: 0px;    
+    font-size: 90%;    
+    margin: 10px auto;    
+    text-align: left;    
+    background-color: #F6F6F6;    
+    border: 1px solid #cbd2d8;    
+}
+
+.rate th {       
+    padding: 5px;    
+    border-spacing: 0px;    
+    font-size: 90%;    
+    margin: 10px auto;   
+    text-align: center;    
+    background-color: #F6F6F6;        
+    border: 1px solid #cbd2d8;    
+} 
+
+.footer{
+    color: lightgrey;
+    background-color: #B51917;
+    margin: 0px;
+    padding: 15px;
+    text-align: left;
+    font-size: 12px;
+}
+
+
+
+.icon a {
+    color: lightgray;
+    font-size: 12px;
+}
+
+.title{
+    font-family: Gladifilthefte;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+@media(max-width:767px) {
+    .title {
+        font-size: 40px;
+    }
+}
+
+.sub-heading{
+    font-style: italic;
+    font-size: 40px;
+}
+
+@media(max-width:767px) {
+    .sub-heading {
+        font-size: 30px;
+    }
+}
+
+/* Fare result */
+.result-style {
+    background-color: #B51917;
+    color: #F4F4F4;
+    padding: 15px;
+    font-size: 18px;
+    font-style: italic;
+    margin: 30px auto;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+
+/* back to top */
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    bottom: 60px;
+  }
+}
